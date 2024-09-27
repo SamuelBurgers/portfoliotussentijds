@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+
+
+    background-color: black;
+    color: white;
+}
+.gridded{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 11%;
+
+
+    background-color: white;
+    color: black;
+}
+button{
+    border-width: 0;
+}
+.column1{
+    grid-column-start:1;
+    grid-column-end:3;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    navbutton_background_color: blue;
+}  .column2{
+    grid-column-start:3;
+    grid-column-end:5;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    navbutton_background_color: blue;
+}  .column3{
+    grid-column-start:5;
+    grid-column-end:7;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    navbutton_background_color: blue;
+}  .column4{
+    grid-column-start:7;
+    grid-column-end:9;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    navbutton_background_color: blue;
+}  .column5{
+    grid-column-start:9;
+    grid-column-end:11;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    navbutton_background_color: blue;
+}
+.kop{
+    background-color: blue;
+}
+
+.aboutme{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
+
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+.software{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
+
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.instagram{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 12;
+
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+}
+.foto{
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 20;
+display:flex;
+    justify-items: center;
+
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 20;
+    grid-row-end: 21;
+    display: flex;
+}
+
+
+.contact{
+    justify-content: left;
+}
+
+.contacted{
+    background-color: white;
+}
+
+.contacting{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display:flex;
+    justify-content: center;
+
+    align-content: center;
+    background-color: white;
+    color: black;
+
+}
+.titel{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    }
+
+.textabout{
+       grid-column-start: 1;
+       grid-column-end: 11;
+       grid-row-start: 3;
+       grid-row-end: 20;
+       display:flex;
+       justify-content: center;
+       align-content: center;
+
+       background-color: grey;
+       color: black;
+   }
+
