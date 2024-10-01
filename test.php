@@ -1,5 +1,11 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
+<?php include 'Index.php'; ?>
+
+
+
+/*
 //integer
 $age = 48 . "<br>";
 echo $age;
@@ -63,3 +69,5 @@ for ($i; $i <= 10; $i++) {
 
 
 //met deze fruit array doen
+/*/
+
