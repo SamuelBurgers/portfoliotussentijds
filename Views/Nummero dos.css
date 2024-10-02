@@ -9,14 +9,13 @@
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(20, 1fr);
 
-
-    background-color: black;
+    background-color: white;
     color: white;
 }
 .gridded{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    height: 11%;
+
 
 
     background-color: white;
@@ -29,47 +28,22 @@ button{
     grid-column-start:1;
     grid-column-end:3;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: blue;
-    navbutton_background_color: blue;
 }  .column2{
     grid-column-start:3;
     grid-column-end:5;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: blue;
-    navbutton_background_color: blue;
 }  .column3{
     grid-column-start:5;
     grid-column-end:7;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: blue;
-    navbutton_background_color: blue;
 }  .column4{
     grid-column-start:7;
     grid-column-end:9;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: blue;
-    navbutton_background_color: blue;
 }  .column5{
     grid-column-start:9;
     grid-column-end:11;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: blue;
-    navbutton_background_color: blue;
 }
 .kop{
     background-color: blue;
@@ -77,33 +51,43 @@ button{
 
 .aboutme{
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 6;
-    grid-row-end: 8;
+    grid-row-end: 11;
 
-    display: flex;
-    justify-content: center;
+    border-radius: 20%;
     background-color: green;
-}
+
+} .aboutmetext{
+      display: flex;
+      flex-direction: column;
+align-items: center;
+
+  }
 .software{
     grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 9;
-    grid-row-end: 10;
-
-    display: flex;
-    justify-content: center;
-    background-color: red;
-}
-.instagram{
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 11;
     grid-row-end: 12;
 
+    border-radius: 30%;
+    background-color: red;
+
     display: flex;
     justify-content: center;
+}
+.instagram{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 13;
+
+    border-radius: 50%;
+
     background-color: purple;
+
+    display: flex;
+    justify-content: center;
 }
 .foto{
     grid-column-start: 7;
@@ -127,7 +111,6 @@ footer{
     display: flex;
 }
 
-
 .contact{
     justify-content: left;
 }
@@ -149,16 +132,15 @@ footer{
     color: black;
 
 }
+
 .titel{
     grid-column-start: 1;
     grid-column-end: 11;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    margin-top: 1%;
     display:flex;
     justify-content: center;
     align-content: center;
 
-    background-color: grey;
     color: black;
     font-weight: bold;
     }
@@ -171,8 +153,27 @@ footer{
        display:flex;
        justify-content: center;
        align-content: center;
-
-       background-color: grey;
        color: black;
    }
+.DownloadCV{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 16;
+
+    border-radius: 20%;
+    background-color: green;
+} .CV{
+      grid-column-start: 6;
+      grid-column-end: 12;
+      grid-row-start: 2;
+      grid-row-end: 20;
+      display:flex;
+      justify-items: center;
+
+      background-image: url("../download.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: grey;
+  }
 

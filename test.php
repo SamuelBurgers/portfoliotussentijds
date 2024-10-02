@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<?php include 'Index.php'; ?>
+<?php
 
 
+
+
+/** @var @var
+ * $requestPage deze variabele geeft de pagina van de gebruiker van die de gebruiker vraagt.
+ */
 
 /*
 //integer
